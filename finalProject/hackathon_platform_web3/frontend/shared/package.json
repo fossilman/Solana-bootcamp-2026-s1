@@ -1,0 +1,13 @@
+{
+  "name": "@hackathon/shared",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./src/components/index.ts",
+  "types": "./src/components/index.ts",
+  "dependencies": {
+    "antd": "^5.11.5",
+    "react": "^18.2.0",
+    "react-i18next": "^16.4.1"
+  }
+}
+

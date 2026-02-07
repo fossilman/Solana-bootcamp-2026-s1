@@ -1,0 +1,40 @@
+# Hackathon 后端配置文件示例
+# 复制此文件为 config.yaml 并修改相应配置
+
+# 数据库配置
+database:
+  host: localhost
+  port: "3306"
+  user: root
+  password: password
+  name: hackathon_db
+  # 表结构已就绪时设为 true 可跳过启动时的自动迁移，加快启动（也可用环境变量 SKIP_AUTO_MIGRATE=true）
+  # skip_auto_migrate: false
+
+# JWT配置
+jwt:
+  secret: your-secret-key-change-in-production  # 生产环境请使用强随机字符串
+  expire_hours: 24
+
+# 服务器配置
+server:
+  port: "8000"
+  mode: debug  # debug/release/test
+
+# CORS配置
+cors:
+  allow_origins:
+    - http://localhost:3000
+    - http://localhost:3001
+
+# Solana 活动发布与赞助商金库（发布/赞助申请由前端 Phantom 钱包授权）
+# authority_key：Admin 账户私钥（Base58）。链上仅有一个 authority，只有 Admin 可审核赞助；配置后首次赞助申请页访问会自动执行 initialize_sponsor_config
+# sponsor_admin_wallet：审核通过时收款地址（链上仅一个）。可填 Admin 钱包，或平台指定的主办方共用收款地址（主办方可有多个账号，但链上收款地址只一个）
+# sponsor_review_period_secs：赞助审核期限（秒），自动初始化时写入链上，默认 10800（3 小时）
+# solana:
+#   program_id: "7pgYzGEw9byBrFkPmRVtvqE3GDdUwpxXAANc6CEBXhk9"
+#   rpc_url: "http://127.0.0.1:8899"
+#   authority_key: ""   # Admin 账户私钥；环境变量 SOLANA_AUTHORITY_KEY
+#   sponsor_admin_wallet: "DnwSNxJfQYHhtFboSDbqx1szVWgdf72AC1mayVA2AA4k"  # 收款地址（可与 Admin 同或主办方共用地址）
+#   sponsor_review_period_secs: 10800
+

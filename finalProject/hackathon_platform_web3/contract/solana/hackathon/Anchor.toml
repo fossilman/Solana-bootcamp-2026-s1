@@ -1,0 +1,23 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+hackathon = "7pgYzGEw9byBrFkPmRVtvqE3GDdUwpxXAANc6CEBXhk9"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+# 赞助商资金管理：默认审核时间 3 天（秒），链上以 initialize_sponsor_config 传入为准
+[sponsor]
+default_review_period_secs = 259200
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
