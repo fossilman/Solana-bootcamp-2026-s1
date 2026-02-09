@@ -4,7 +4,7 @@
 
 ## 💻 项目 Repo
 
-https://github.com/fossilman/Hackathon/tree/solana_plus_2
+https://github.com/fossilman/Solana-bootcamp-2026-s1
 
 ## 📌 项目简介
 
@@ -48,6 +48,6 @@ https://github.com/fossilman/Hackathon/tree/solana_plus_2
 
 ## ✍️ 项目创作者
 
-1. 创作者昵称：xxx
-2. 创作者联系方式：xxx
-3. 创作者 Solana USDC 钱包地址：xxx
+1. 创作者昵称：fossilman、
+2. 创作者联系方式：https://github.com/fossilman、
+3. 创作者 Solana USDC 钱包地址：2PMjGQBiZdDJ8mxY3r2SjiwdCiVDq5Gryqb6dneDq19T、
