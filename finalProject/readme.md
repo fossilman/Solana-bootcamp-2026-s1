@@ -48,6 +48,6 @@ https://github.com/fossilman/Solana-bootcamp-2026-s1
 
 ## ✍️ 项目创作者
 
-1. 创作者昵称：fossilman、
-2. 创作者联系方式：https://github.com/fossilman、
-3. 创作者 Solana USDC 钱包地址：2PMjGQBiZdDJ8mxY3r2SjiwdCiVDq5Gryqb6dneDq19T、
+1. 创作者昵称：fossilman、monstersquad227
+2. 创作者联系方式：https://github.com/fossilman、https://github.com/monstersquad227
+3. 创作者 Solana USDC 钱包地址：2PMjGQBiZdDJ8mxY3r2SjiwdCiVDq5Gryqb6dneDq19T、2PDZ1TcnPtDHsHejHbDAWYUN3n17wGLEWVL2i2pAaBBW
